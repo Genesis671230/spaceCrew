@@ -1,0 +1,141 @@
+.destination {
+  height: 100vh;
+  background-image: url("../assets/destination/background-destination-desktop.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  padding-left: 165px;
+  padding-right: 165px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.destinationNumber {
+  font-family: "Barlow Condensed";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 34px;
+  letter-spacing: 4.725px;
+  color: #ffffff;
+  mix-blend-mode: normal;
+  opacity: 0.25;
+}
+.destinationTitle {
+  margin-bottom: 64px;
+  display: flex;
+  gap: 22px;
+}
+.destinationHeader {
+  font-family: "Barlow Condensed";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 34px;
+  letter-spacing: 4.725px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.destinationContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 157px;
+}
+
+.destinationDetails {
+  width: 445px;
+}
+.dynamicNav {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 37px;
+}
+
+.planetTitle {
+  font-family: "Bellefair";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 100px;
+  line-height: 115px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+.planetDescription {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  height: 128px;
+  color: #d0d6f9;
+  margin-top: 14px;
+  margin-bottom: 54px;
+}
+
+.divider {
+  width: 100%;
+  background: #383b4b;
+
+  height: 1px;
+  color: white;
+  margin-bottom: 28px;
+}
+.planetMetrics {
+  display: flex;
+  justify-content: space-between;
+}
+
+.planetDistance {
+  display: flex;
+  justify-content: start;
+  flex: 1;
+}
+.planetTravelTime {
+  flex: 1;
+  display: flex;
+  justify-content: start;
+}
+
+.distance {
+  font-family: "Barlow Condensed";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+  letter-spacing: 2.3625px;
+  text-transform: uppercase;
+
+  color: #d0d6f9;
+  margin-bottom: 12px;
+}
+
+.travelCount {
+  font-family: "Bellefair";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 32px;
+  /* identical to box height */
+
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+.destinationType {
+  font-family: "Barlow Condensed";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 2.7px;
+  margin-right: 35px;
+  color: #D0D6F9;
+  padding-bottom: 12px;
+}

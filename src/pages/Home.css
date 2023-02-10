@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700&display=swap");
+
+.home {
+  height: 100vh;
+  background-image: url("../assets/home/background-home-desktop.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+
+  padding-left: 165px;
+  padding-right: 165px;
+}
+.homeContainer {
+  height: calc(100% - 131px);
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+.rightExplore {
+  width: 274px;
+  height: 274px;
+  border-radius: 50%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-size: 32px;
+  font-weight: 400;
+  font-family: "Bellefair", serif;
+  font-style: normal;
+}
+.leftContainer {
+  width: 450px;
+}
+.homeTopPara {
+  color: #d0d6f9;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 4.725px;
+  font-family: "Barlow Condensed", sans-serif;
+  letter-spacing: 4.725px;
+}
+.homeHeading {
+  
+  font-size: 150px;
+  font-weight: 400;
+  line-height: 172px;
+  font-style: normal;
+  font-family: "Bellefair", serif;
+  color: white;
+}
+.homePara {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 32px;
+}
